@@ -1,0 +1,129 @@
+body{
+  padding: 0px;
+  margin: 0px;
+  background: #474747 url("../img/bg.png")
+}
+
+
+header{
+  padding: 10px;
+  margin-bottom: 50px;
+
+}
+
+header > span {
+  font: 18px Tahoma, Helvetica, Arial, Sans-Serif;
+text-align: center;
+color: #222;
+text-shadow: 0px 2px 3px #555;
+}
+h1 {
+  display: block;
+    text-decoration: none;
+    font: 50px Sans-Serif;
+    letter-spacing: -4px;
+    text-align: center;
+    color: #999;
+    text-shadow: 0px 3px 8px #2a2a2a;
+    text-transform: uppercase;
+    font-weight: 800;
+}
+
+
+.textColor,.textBackground {
+  padding: 10px;
+  background-color: gainsboro;
+  margin-top: 10px;
+}
+.textColor h6, .textBackground h6 {
+padding: 15px
+}
+
+
+.windows {
+  height: 250px;
+  background: black
+}
+
+.windows .headbar {
+  background: grey;
+  height: 15px;
+}
+
+.cont {
+  padding: 0 10px;
+}
+.cont p {
+  display: inline-block;
+}
+
+
+
+.result{
+  height: 100%;
+  background: gainsboro;
+  margin-top: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.contbtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.contbtn i {
+  cursor: pointer;
+  font-size: 30px;
+}
+
+
+/* TEXT COLORS */
+
+.text {
+  color: rgb(255, 255, 254);
+}
+.textColor1 {
+  color : green;
+}
+.textColor2 {
+  color : red;
+}
+.textColor3 {
+  color : blue;
+}
+.textColor4 {
+  color : yellow;
+}
+.textColor5 {
+  color : black;
+}
+.textColor6 {
+  color : white;
+}
+
+
+/* BG COLORS */
+.bg{
+  background: rgb(0, 0, 1);
+}
+.bg1{
+  background-color: green;
+}
+.bg2{
+  background-color: red;
+}
+.bg3{
+  background-color: blue;
+}
+.bg4 {
+  background-color : yellow;
+}
+.bg5 {
+  background-color : black;
+}
+.bg6 {
+  background-color : white;
+}
