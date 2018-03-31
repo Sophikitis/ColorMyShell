@@ -1,53 +1,51 @@
 * {
   font-family: 'Roboto', sans-serif;
+
 }
 
-body{
+body {
   padding: 0px;
   margin: 0px;
-/* background-image: linear-gradient(-270deg, #0085FF 0%, #00FBFF 100%); */
+  /* background-image: linear-gradient(-270deg, #0085FF 0%, #00FBFF 100%); */
   background: #0085FF;
 }
 
-
-header{
+header {
   padding: 10px;
   margin-bottom: 50px;
-
+  > span {
+    font-size: 18px;
+    font-weight: 300;
+    color: white;
+  }
 }
 
-header > span {
-  font-size: 18px;
-font-weight: 300;
-color: white;
-}
 h1 {
-  font-family: 'Pacifico', cursive!important;
+  font-family: "Pacifico", cursive !important;
   color: white;
   text-shadow: 2px 2px 4px #2296f3;
 }
 
-
-.textColor,.textBackground {
+.textColor, .textBackground {
   padding: 10px;
   background-color: white;
   margin-top: 10px;
 }
-.textColor h6, .textBackground h6 {
-padding: 15px;
-font-weight: 300;
-color: #0085ff;
 
+.textColor h6, .textBackground h6 {
+  padding: 15px;
+  font-weight: 300;
+  color: #0085ff;
 }
-.textInput input{
+
+.textInput input {
   color: white;
 }
-
 
 .windows {
   height: 250px;
   background: black;
-  border-radius:5px;
+  border-radius: 5px;
   border-top-right-radius: 10px;
   border-top-left-radius: 10px;
 }
@@ -64,14 +62,12 @@ color: #0085ff;
 
 .cont {
   padding: 0 10px;
+  p {
+    display: inline-block;
+  }
 }
-.cont p {
-  display: inline-block;
-}
 
-
-
-.result{
+.result {
   height: 100%;
   background: white;
   margin-top: 10px;
@@ -79,64 +75,74 @@ color: #0085ff;
   display: flex;
   justify-content: space-between;
 }
+
 .contbtn {
   display: flex;
   justify-content: center;
   align-items: center;
-
+  i {
+    cursor: pointer;
+    font-size: 30px;
+    color: #0085FF;
+  }
 }
-
-.contbtn i {
-  cursor: pointer;
-  font-size: 30px;
-  color: #0085FF;
-}
-
 
 /* TEXT COLORS */
 
 .text {
   color: rgb(255, 255, 254);
 }
+
 .textColor1 {
-  color : green;
-}
-.textColor2 {
-  color : red;
-}
-.textColor3 {
-  color : blue;
-}
-.textColor4 {
-  color : yellow;
-}
-.textColor5 {
-  color : black;
-}
-.textColor6 {
-  color : white;
+  color: green;
 }
 
+.textColor2 {
+  color: red;
+}
+
+.textColor3 {
+  color: blue;
+}
+
+.textColor4 {
+  color: yellow;
+}
+
+.textColor5 {
+  color: black;
+}
+
+.textColor6 {
+  color: white;
+}
 
 /* BG COLORS */
-.bg{
+
+.bg {
   background: rgb(0, 0, 1);
 }
-.bg1{
+
+.bg1 {
   background-color: green;
 }
-.bg2{
+
+.bg2 {
   background-color: red;
 }
-.bg3{
+
+.bg3 {
   background-color: blue;
 }
+
 .bg4 {
-  background-color : yellow;
+  background-color: yellow;
 }
+
 .bg5 {
-  background-color : black;
+  background-color: black;
 }
+
 .bg6 {
-  background-color : white;
+  background-color: white;
 }
