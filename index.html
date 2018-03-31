@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <title></title>
     <link rel="stylesheet" href="assets/css/master.css">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:300,400" rel="stylesheet">
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!--Import materialize.css-->
@@ -14,7 +15,7 @@
   </head>
   <body>
     <header class="center-align">
-      <h1> color my Shell </h1>
+      <h1> Color my Shell </h1>
       <span>Colorer vos lignes de code pour donner de la vie à vos scripts</span>
     </header>
 
@@ -23,7 +24,7 @@
       <div class="row">
         <div class="center-align col s12 m4 l3">
           <!-- panel colors -->
-          <div class="textColor">
+          <div class="z-depth-1 textColor">
             <h6>Couleur du texte</h6>
             <div class="control">
               <div class="row">
@@ -40,7 +41,7 @@
             </div>
           </div>
 
-          <div class="textBackground">
+          <div class="z-depth-1 textBackground">
             <h6>Couleur du fond</h6>
             <div class="control">
               <div class="row">
@@ -70,7 +71,7 @@
             </div>
           </div>
 
-          <div class="result">
+          <div class="z-depth-1 result">
             <p id="p1">{{ withCode }}</p>
             <div class="contbtn">
               <i class=" waves-effect waves-green center material-icons" onclick="copyToClipboard('#p1')">content_copy</i>
@@ -79,8 +80,10 @@
         </div>
       </div>
     </div>
+
+
   </body>
-  
+
   <!-- scripts -->
   <script src="https://cdn.jsdelivr.net/npm/vue"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>

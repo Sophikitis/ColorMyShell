@@ -1,7 +1,12 @@
+* {
+  font-family: 'Roboto', sans-serif;
+}
+
 body{
   padding: 0px;
   margin: 0px;
-  background: #474747 url("../img/bg.png")
+/* background-image: linear-gradient(-270deg, #0085FF 0%, #00FBFF 100%); */
+  background: #0085FF;
 }
 
 
@@ -12,41 +17,48 @@ header{
 }
 
 header > span {
-  font: 18px Tahoma, Helvetica, Arial, Sans-Serif;
-text-align: center;
-color: #222;
-text-shadow: 0px 2px 3px #555;
+  font-size: 18px;
+font-weight: 300;
+color: white;
 }
 h1 {
-  display: block;
-    text-decoration: none;
-    font: 50px Sans-Serif;
-    letter-spacing: -4px;
-    text-align: center;
-    color: #999;
-    text-shadow: 0px 3px 8px #2a2a2a;
-    text-transform: uppercase;
-    font-weight: 800;
+  font-family: 'Pacifico', cursive!important;
+  color: white;
+  text-shadow: 2px 2px 4px #2296f3;
 }
 
 
 .textColor,.textBackground {
   padding: 10px;
-  background-color: gainsboro;
+  background-color: white;
   margin-top: 10px;
 }
 .textColor h6, .textBackground h6 {
-padding: 15px
+padding: 15px;
+font-weight: 300;
+color: #0085ff;
+
+}
+.textInput input{
+  color: white;
 }
 
 
 .windows {
   height: 250px;
-  background: black
+  background: black;
+  border-radius:5px;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+}
+
+.headbar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .windows .headbar {
-  background: grey;
+  background: white;
   height: 15px;
 }
 
@@ -61,7 +73,7 @@ padding: 15px
 
 .result{
   height: 100%;
-  background: gainsboro;
+  background: white;
   margin-top: 10px;
   padding: 10px;
   display: flex;
@@ -77,6 +89,7 @@ padding: 15px
 .contbtn i {
   cursor: pointer;
   font-size: 30px;
+  color: #0085FF;
 }
 
 
